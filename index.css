@@ -1,0 +1,138 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin: auto !important;
+    justify-content: center !important;
+}
+
+.visitors_1 {
+    width: 370px;
+    margin-left: 30px;
+
+}
+
+.visitors_2 {
+    margin-top: 35px;
+    margin-left: 30px !important;
+}
+
+#sub_1 {
+    display: flex;
+    width: 350px;
+}
+
+sub {
+    margin-top: 5px;
+    margin-left: 8px;
+    font-size: 8px;
+    Color: #4d67b1;
+    line-height: 54px;
+}
+
+.visitors {
+    font-Family: Poppins;
+    font-weight: normal;
+    font-Size: 36px;
+    line-height: 54px;
+    Color: #4d67b1;
+}
+
+#sub_2 {
+    width: 350px;
+    font-Family: Poppins;
+    font-Weight: 400;
+    font-Size: 18px;
+    color: #7e7e7e;
+    margin-top: 10px;
+}
+
+.box {
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 900px) {
+    .box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .visitors_1 {
+        margin-left: 80px !important;
+    }
+
+}
+
+@media (min-width: 500px) {
+    .box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .visitors_1 {
+        margin-left: 80px !important;
+    }
+}
+
+.box1 {
+    height: 240px;
+    width: 230px;
+    border-radius: 10px;
+}
+
+img {
+    height: 238px;
+    width: 228px;
+    border-radius: 10px;
+}
+
+.linear {
+    height: 2px;
+    top: -73px;
+    margin-left: 1px;
+    width: 226.8px;
+    position: relative;
+    background-image: linear-gradient(to right, #4D67B1, #4D67B1, #D33C5B, #8F5286);
+}
+
+.overlay {
+    position: relative;
+    height: 71px;
+    width: 227px;
+    bottom: 73px;
+    left: 1px;
+    border-radius: 0px 0px 10px 10px;
+    /* border-top: 2px solid blue; */
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.wd {
+    height: 13px;
+}
+
+.wd1,
+.wd2 {
+    margin-left: 20px;
+    color: white;
+}
+
+.wd1 {
+    font-weight: bold;
+}
+
+.more {
+    height: 35px;
+    width: 130px !important;
+    background-color: transparent;
+    border-image: linear-gradient(to right, #4D67B1, #4D67B1, #D33C5B, #8F5286) 1;
+}
+
+button:hover {
+    background-color: #dbdbdb;
+
+}
+
+button:focus {
+    outline: none;
+}
